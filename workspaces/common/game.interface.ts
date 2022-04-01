@@ -10,3 +10,8 @@ export enum playerEnum {
 }
 
 export type IGame = caseEnum[][];
+
+export interface IResponse {
+  winner?: playerEnum;
+  game: IGame;
+}
